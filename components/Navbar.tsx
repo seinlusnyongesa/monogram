@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div role="navigation" className="p-4 fixed w-full">
+    <div role="navigation" className="p-4 fixed w-full z-50">
       <nav className="flex justify-between items-center bg-blue text-pink px-2 py-1">
         <div>
           <svg height="38" viewBox="0 0 520 114" fill="currentColor">
